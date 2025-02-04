@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+ name: wl-env-config
+data:
+ MONGO_URI: "mongodb+srv://kathirvel:kathir2212@hhld-stock-broker.mznvb.mongodb.net/?retryWrites=true&w=majority&appName=hhld-stock-broker"
+ PORT: "8084"
